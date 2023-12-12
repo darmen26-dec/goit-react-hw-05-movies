@@ -1,0 +1,40 @@
+.homeHeading {
+  max-width: 350px;
+  margin: 15px auto;
+  padding: 15px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+}
+
+.homeHeading:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.homeList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  gap: 25px;
+}
+.homeListItem {
+  transition: transform 100ms ease-in-out;
+}
+
+.homeListItem:hover {
+  transform: scale(1.2);
+}
+
+.homeListImg {
+  max-width: 120px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #694444;
+}
+
+.moviesError {
+  text-align: center;
+}

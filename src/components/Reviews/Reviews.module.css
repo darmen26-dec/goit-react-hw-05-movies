@@ -1,0 +1,10 @@
+.authorName {
+  font-size: 20px;
+  color: #ed4343;
+  text-decoration: none;
+  list-style-type: none;
+}
+.errorHeading {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
